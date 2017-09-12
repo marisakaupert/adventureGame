@@ -1,14 +1,20 @@
 import unittest
-import gui_skeleton.py
+from readText import ReadDescriptions
+from room import Rooms
+
 
 class CorrectFileTest(unittest.TestCase):
     """
     """
 
-    def test_has_right_ui_file_to_build_skeleton(self):
-        self.assertEqual('adventureGame.ui', self.qtCreatorFile)
-        
+    def test_can_create_room_dictionary(self):
+        roomsDict = Rooms()
+        self.assertEqual({1: {}, 2: {}, 3: {}, 4: {}, 5: {}, 6: {}, 7: {}, 8: {}, 9: {}}, 
+            roomsDict.setRoomNumberKeys())
+
+
+
 
 
 if __name__ == '__main__':
-    unittest.main(warnings='ignore')
+    unittest.main()
