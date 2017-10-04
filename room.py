@@ -72,5 +72,19 @@ class Rooms():
 
         return self.roomInformation
 
-    def setRoomDescriptions(self):
-        pass
+    def setRoom1Descriptions(self):
+        descriptions = ReadDescriptions()
+        x = descriptions.readFile()
+        for i in x:
+            if i.startswith('firstVisit'):
+                pass
+            elif i.startswith('otherVisits'):
+                pass
+            elif i.startswith('winningText'):
+                pass
+            elif i.startswith('preAction'):
+                pass
+            elif i.startswith('postAction'):
+                pass
+            else:
+                print i

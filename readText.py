@@ -6,7 +6,7 @@ class ReadDescriptions():
         inFile = 'roomDescriptions.txt'
 
         with open(inFile, 'rb') as descriptions:
-            for count, line in enumerate(descriptions):
-                return line
+            line = descriptions.readlines()
+            return line
 
         descriptions.close()

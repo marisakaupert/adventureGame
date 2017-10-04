@@ -94,14 +94,9 @@ class CorrectFileTest(unittest.TestCase):
                  'visits': 0}},
                          roomsDict.setRoomVisits())
 
-    def test_can_get_correct_room_descriptons(self):
-        # roomsDict = Rooms()
-        # roomsDict.setRoomNumberKeys()
-        # roomsDict.setRoomObjects()
-        # roomsDict.setRoomDirections()
-        # print roomsDict.setRoomDescriptions()
-        descriptions = ReadDescriptions()
-        print descriptions.readFile()
+    def test_can_save_variable_room_descriptons(self):
+        roomsDict = Rooms()
+        print roomsDict.setRoom1Descriptions()
 
 if __name__ == '__main__':
     unittest.main()
