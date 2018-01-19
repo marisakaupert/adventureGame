@@ -1,8 +1,5 @@
-from readText import ReadDescriptions
-
-
 class Rooms():
-    """ The state of the rooms in the game
+    """
     """
     def firstVisit(self):
         pass

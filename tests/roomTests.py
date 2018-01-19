@@ -1,4 +1,5 @@
 import unittest
+from ..adventureGame.engine import Engine
 
 
 class RoomInformationTest(unittest.TestCase):

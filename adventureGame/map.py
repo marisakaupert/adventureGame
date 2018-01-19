@@ -1,6 +1,3 @@
-from readText import ReadDescriptions
-
-
 class Map():
     """
     """

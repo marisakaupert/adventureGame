@@ -1,6 +1,3 @@
-from readText import ReadDescriptions
-
-
 class Engine():
     """
     """
@@ -8,8 +5,7 @@ class Engine():
         self.rooms_map = rooms_map
 
     def play(self):
-        current_room = 1
-        return current_room
+        pass
 
     def help(self):
         pass
