@@ -9,3 +9,6 @@ class Map():
 
     def opening_room(self):
         pass
+
+    def revisit_room(self, room_name):
+        pass
