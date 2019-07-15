@@ -1,17 +1,8 @@
 class Rooms():
     """
     """
-    def firstVisit(self):
+    def __init__(self):
         pass
 
-    def preAction(self):
-        pass
-
-    def postAction(self):
-        pass
-
-    def trackVisits(self):
-        pass
-
-    def setObjects(self):
+    def read_room_text(self):
         pass
