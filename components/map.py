@@ -32,10 +32,9 @@ class Map(object):
 
         return self.roomsWithMonsters
 
-
     def setupMap(self):
         return self.set_room_with_items(), self.set_rooms_with_monsters()
 
-    def get_current_room(self):
-        pass
+    def play_current_room(self, roomNumber):
+        print("YOU ARE IN ROOM", roomNumber)
 

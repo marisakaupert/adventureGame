@@ -2,18 +2,18 @@ from map import Map
 from companion import Companion
 
 
-class Engine():
+class Engine(object):
     """
     """
     def __init__(self):
         self.map = Map()
         self.companion = Companion()
-        self.startingRoom = 1
+        self.currentRoom = 1
         self.playing = True
 
     def get_companion(self):
         companionName = self.companion.choose_companion()
-        if companionName is None:
+        while companionName is None:
             print("You have entered an invalid name or number for a companion. Try again.\n")
             companionName = self.companion.choose_companion()
         return companionName
@@ -23,6 +23,7 @@ class Engine():
         roomsWithItems, roomsWithMonsters = self.map.setupMap()
         print("You have chosen {} as your companion".format(companionName))
         while self.playing:
+            self.map.play_current_room(self.currentRoom)
             userInput = input("Enter Action: ")
             self.quit(userInput)
             self.help(userInput)

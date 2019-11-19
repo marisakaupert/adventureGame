@@ -2,13 +2,32 @@
   "1": [
     {
       "visits": 0,
-      "items": "",
       "text": "You are in the Vermillion Minotaur. Usidore, Arnie, and Chunt appear before you saying they need 5 items to get Arnie back home: These items are: the hair of a bat (series of bats), a Wizard's Choice Award (spintax's study because he is on earth), a forlorn snake (dripfang snake that downsized), a mervelous feat (arnor), and gems of an imp (pimble nimble-bottom). As you and your companion depart, Usidore opens a portal telling you to go to a room by saying the magical direction.",
       "validDirections": {
-        "north": "3", "up": "3",
-        "south ": "8", "down ": "8",
-        "east": "5", "right": "5",
-        "west": "6", "left": "6"
+        "north": "3",
+        "up": "3",
+        "south ": "8",
+        "down ": "8",
+        "east": "5",
+        "right": "5",
+        "west": "6",
+        "left": "6"
+      }
+    }
+  ],
+  "3": [
+    {
+      "visits": 0,
+      "text": "You are in Room 3",
+      "validDirections": {
+        "north": "3",
+        "up": "3",
+        "south ": "8",
+        "down ": "8",
+        "east": "5",
+        "right": "5",
+        "west": "6",
+        "left": "6"
       }
     }
   ]
